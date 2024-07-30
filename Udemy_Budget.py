@@ -9,6 +9,4 @@ for spending in spendings:
         count2+=1
     else:
         count3+=1
-print('Numbers of months with low spendings: ',count1)
-print('Numbers of months with normal spendings: ',count2)
-print('Numbers of months with high spendings: ',count3)
+print(f'Numbers of months with low spendings: {count1} , Numbers of months with normal spendings: {count2} ,Numbers of months with high spendings: {count3}')
