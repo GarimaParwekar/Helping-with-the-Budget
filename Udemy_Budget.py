@@ -5,14 +5,10 @@ count3=0
 for spending in spendings:
     if (spending < 1000.0):
         count1+=1
-        #print('Numbers of months with low spendings: ', count1)
     elif(spending >=1000.0 and spending <=2500.0):
         count2+=1
-        #print('Numbers of months with Normal spendings: ', count2)
     else:
         count3+=1
-        #print('Numbers of months with high spendings: ', count3)
-
 print('Numbers of months with low spendings: ',count1)
 print('Numbers of months with normal spendings: ',count2)
 print('Numbers of months with high spendings: ',count3)
